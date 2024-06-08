@@ -1,0 +1,848 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* general */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1112px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header styles */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0px;
+}
+
+.header__logo img {
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header__registratsiya {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header__link {
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.header__link:hover {
+    color: blueviolet;
+}
+
+.header__btn {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    padding: 15px 42px;
+    border: 2px solid black;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.header__btn:hover {
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+/* header-content styles */
+
+.header__content h1 {
+    width: 730px;
+    height: 106px;
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 53px;
+    letter-spacing: 0%;
+    margin: 195px auto 0 auto;
+    text-align: center;
+}
+
+.header__content p {
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 23px 0px 49px 0px;
+}
+
+.header__content__select {
+    width: 613px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    border-radius: 0px 6px 6px 0px;
+    box-shadow: 0px 4px 42px 0px rgba(145, 154, 163, 0.24);
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+select {
+    color: rgb(76, 70, 75);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0%;
+    border: none;
+    padding: 25px 9px;
+}
+
+.header__content__btn {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0%;
+    padding: 20px 36px;
+    border-radius: 0px 6px 6px 0px;
+    background: rgb(231, 57, 81);
+    border: none;
+}
+
+.header__content__btn:hover {
+    color: rgb(231, 57, 81);
+    border: 0.2px solid rgb(231, 57, 81);
+    background: #fff;
+}
+
+.header__cards {
+    margin-top: 180px;
+}
+
+.header__card {
+    display: flex;
+}
+
+.header__card h2 {
+    width: 176px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    padding-top: 160px;
+    margin-left: 65px;
+}
+
+.card1 {
+    background-image: url(../image/boshlovchi.svg);
+    width: 257px;
+    height: 203px;
+}
+
+.card2 {
+    background-image: url(../image/yulduzlar.svg);
+    width: 257px;
+    height: 203px;
+}
+.card3 {
+    background-image: url(../image/artist.svg);
+    width: 257px;
+    height: 203px;
+}
+.card4 {
+    background-image: url(../image/gruop.svg);
+    width: 257px;
+    height: 203px;
+}
+.card5 {
+    background-image: url(../image/muzika-1.svg);
+    width: 257px;
+    height: 203px;
+}
+.card6 {
+    background-image: url(../image/muzika-2.svg);
+    width: 257px;
+    height: 203px;
+}
+.card7 {
+    background-image: url(../image/foto.svg);
+    width: 257px;
+    height: 203px;
+}
+.card8 {
+    background-image: url(../image/video.svg);
+    width: 257px;
+    height: 203px;
+}
+.card9 {
+    background-image: url(../image/texnika.svg);
+    width: 257px;
+    height: 203px;
+}
+.card10 {
+    background-image: url(../image/dekloratsiya.svg);
+    width: 257px;
+    height: 203px;
+}
+.card11 {
+    background-image: url(../image/kondetir.svg);
+    width: 257px;
+    height: 203px;
+}
+.card12 {
+    background-image: url(../image/solyut.svg);
+    width: 257px;
+    height: 203px;
+}
+.card13 {
+    background-image: url(../image/atraksiyon.svg);
+    width: 257px;
+    height: 203px;
+}
+.card14 {
+    background-image: url(../image/lokasiya.svg);
+    width: 257px;
+    height: 203px;
+}
+.card15 {
+    background-image: url(../image/arenda.svg);
+    width: 257px;
+    height: 203px;
+}
+.card16 {
+    background-image: url(../image/arenda-transport.svg);
+    width: 257px;
+    height: 203px;
+}
+
+/* section special styles */
+
+.special {
+    margin-top: 156px;
+}
+
+.special__div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+.special__title {
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+
+.special__link {
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.special__link:hover {
+    color: blueviolet;
+}
+
+.special__cards__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special__cards {
+    width: 255px;
+    height: 357px;
+    border-radius: 8px;
+    box-shadow: 0px 18px 52.85px 0px rgba(215, 228, 249, 0.5);
+    background: rgb(255, 255, 255);
+}
+
+.special__cards h2 {
+    width: 226px;
+    height: 46px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 23px;
+    margin-top: -60px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.special__cards__price {
+    text-align: end;
+    gap: 10px;
+}
+
+.special__cards__price p {
+    color: rgb(8, 9, 27);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 5%;
+    opacity: 0.8;
+}
+
+.special__cards__price span {
+    color: rgb(254, 203, 2);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.special__cards h4 {
+    color: rgb(7, 8, 26);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 15px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+/* section howWorking styles */
+
+.howWorking {
+    margin-top: 64px;
+}
+
+.howWorking__title {
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 58px;
+}
+
+.howWorking__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.howWorking__card img {
+    margin: 0 auto;
+}
+
+.howWorking__card p {
+    width: 180px;
+    height: 36px;
+    color: rgba(7, 8, 26, 0.8);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.howWorking__card h6 {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background: rgb(117, 53, 243);
+    color: rgb(246, 250, 253);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 6px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* section FAQ styles */
+
+.faq__content h1 {
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+
+.faq__card {
+    display: flex;
+    width: 777px;
+    height: 78px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 18px 52.85px 0px rgba(215, 228, 249, 0.5);
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.faq__card img {
+    display: flex;
+    width: 23.64px;
+    height: 20.24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 29px;
+}
+
+.faq__card p {
+    display: flex;
+    color: rgba(7, 8, 26, 0.8);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    opacity: 0.9;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq__btn__center {
+    text-align: center;
+    margin-top: 53px;
+}
+
+.faq__btn {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0%;
+    padding: 26px 46px;
+    border-radius: 6px;
+    background: rgb(231, 57, 81);
+    border: none;
+}
+
+.faq__btn:hover {
+    background: #fff;
+    color: rgb(231, 57, 81);
+    border: 2px solid rgb(231, 57, 81);
+}
+
+/* section Popular styles */
+
+.popular {
+    width: 1600px;
+    background: rgb(249, 247, 255);
+    margin-top: 76px;
+}
+
+.popular__card__flex {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.popular__content h1 {
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 59px;
+    padding-bottom: 54px;
+}
+
+.popular__content h2 {
+    width: 226px;
+    height: 46px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 23px;
+    margin-top: -90px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.popular__price {
+    gap: 10px;
+}
+
+.popular__price p {
+    margin-left: 141px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 5%;
+    opacity: 0.8;
+}
+
+.popular__price span {
+    color: rgb(254, 203, 2);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* section baza styles */
+
+.baza {
+    width: 1600px;
+    height: 509px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+            147.12deg,
+            rgb(253, 153, 67) 24.586%,
+            rgb(255, 61, 89) 81.611%
+        ),
+        rgb(196, 196, 196);
+}
+
+.baza__content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 137px;
+    margin-bottom: 40px;
+}
+.baza__content p {
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.9;
+    margin-bottom: 79px;
+}
+
+.baza__content__btn {
+    text-align: center;
+}
+
+.baza__btn {
+    color: rgb(255, 89, 83);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 26px 46px;
+    border: none;
+    border-radius: 6px;
+}
+
+.baza__btn:hover {
+    border: 2px solid blueviolet;
+    color: blueviolet;
+}
+
+/* section speak styles */
+
+.speak__content h1 {
+    color: rgb(39, 45, 78);
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 53px;
+    margin: 74px 0px 15px 0px;
+}
+
+.speak__text {
+    width: 611px;
+    height: 52px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    opacity: 0.65;
+}
+
+.speak__cards {
+    display: flex;
+    gap: 70px;
+    margin-top: 45px;
+}
+
+.speak__card {
+    width: 310px;
+    height: 247px;
+    border-radius: 9px;
+    box-shadow: 0px 6px 44px 0px rgba(25, 10, 50, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.speak__card h2 {
+    color: rgb(25, 10, 50);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 59px;
+    padding-top: 40px;
+}
+.speak__card h5 {
+    color: rgb(117, 53, 243);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 59px;
+    margin-bottom: 12px;
+}
+.speak__card p {
+    width: 231px;
+    height: 120px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    opacity: 0.65;
+    margin-left: 59px;
+}
+
+.speak__img {
+    margin-bottom: -115px;
+    margin-left: -50px;
+}
+
+.speak__arrow {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.arrow__right {
+    margin-right: 20px;
+}
+
+.lagatips {
+    margin: 85px 0px 67px 0px;
+}
+
+.lagatip {
+    margin-right: 54px;
+}
+
+/* section Komand style */
+
+.komand {
+    width: 1600px;
+    height: 261px;
+    right: 0;
+    left: 0;
+    background: rgb(117, 53, 243);
+}
+
+.komand__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.komand__content h1 {
+    margin-top: 88px;
+    width: 670px;
+    height: 105px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.5px;
+}
+
+.komand__btn {
+    color: rgb(255, 89, 83);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 31px;
+    padding: 26px 46px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 103px;
+}
+
+.komand__btn:hover {
+    border: 2px solid blueviolet;
+    color: blueviolet;
+}
+
+.footer {
+    color: #fff;
+    width: 1600px;
+    height: 322px;
+    right: 0;
+    left: 0;
+    background: linear-gradient(
+            147.12deg,
+            rgb(253, 153, 67) 25.365%,
+            rgb(255, 61, 89) 80.206%
+        ),
+        rgb(196, 196, 196);
+}
+
+.footer__title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 61px;
+    margin-bottom: 19px;
+}
+
+.footer__registratsiya {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer__link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.footer__link:hover {
+    color: blueviolet;
+}
+
+.footer__btn {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    padding: 15px 42px;
+    border: 2px solid #fff;
+    background: inherit;
+    border-radius: 5px;
+}
+
+.footer__btn:hover {
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+.footer__content h2 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 52.5px;
+}
+
+.footer__content__df {
+    display: flex;
+    gap: 77px;
+}
+
+.footer__team {
+    display: flex;
+    gap: 43px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 0.8;
+}
+
+.footer__phone {
+    width: 166px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 0.8;
+}
+
+.footer__last {
+    display: flex;
+    margin-top: 33px;
+    justify-content: space-between;
+}
+
+.footer__last h3 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.icon__mr {
+    margin-right: 38.38px;
+}
+
